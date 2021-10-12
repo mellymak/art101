@@ -1,17 +1,1 @@
 
-#myportrait {
-  width: 300px;
-  padding: 20px;
-  margin: 20px;
-  border: solid 1px #afc1d6;
-}
-
-h1 {
-    color: pink;
-    font-size: 200%;
-}
-
-p {
-    font-style: "italic";
-    font-family: "sans-serif";
-}
