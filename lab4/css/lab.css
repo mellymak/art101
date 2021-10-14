@@ -1,7 +1,6 @@
 h1 {
     color: green;
     font-size: 150%;
-    text-align: center;
 }
 
 
@@ -9,16 +8,9 @@ p{
   font-family: "sans serif";
   text-indent: 30px;
   margin-left: 50px;
-  text-align: justify;
 }
 
 
-#content {
-  background-color: #d0e3c4;
-  width: 600px;
-  min-height: 200px;
-  padding: 20px;
-  margin: 20px;
-  border: solid 1px #adc698;
-  font-size: 30px
+img {
+  vertical-align: middle;
 }
