@@ -1,0 +1,24 @@
+h1 {
+    color: green;
+    font-size: 250%;
+}
+
+<h3 style="border:2px solid Violet;"/h1>
+
+
+p{
+  font-family: "sans serif";
+  text-indent: 30px;
+  margin-left: 20px;
+}
+
+
+#content {
+  background-color: #d0e3c4;
+  width: 600px;
+  min-height: 200px;
+  padding: 20px;
+  margin: 20px;
+  border: solid 1px #adc698;
+  font-size: 30px
+}
