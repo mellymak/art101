@@ -1,0 +1,24 @@
+/*
+ * Author: Melanie Mak <mymak@ucsc.edu>
+ * Created: Oct 19, 2021 
+ * License: Public Domain
+ */
+
+
+ //Define variables
+ make = "Audi";
+ model = "a8";
+ color = "silver";
+ year = "2021";
+
+
+ //calculate
+ age = 2021 - year;
+
+
+ //output
+ document.writeln("Make:" + make + "<br>");
+ document.writeln("Model:" + model + "<br>");
+ document.writeln("Color:" + color + "<br>");
+ document.writeln("Year:" + year + "<br>");
+ document.writeln("Age:" + age + "years<br>");

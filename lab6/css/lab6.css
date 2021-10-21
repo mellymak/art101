@@ -1,0 +1,20 @@
+body, h1, h2, h3, h4, h5, h6 {
+  font-family: Geneva, Verdana, sans-serif;
+}
+
+img src="img/loops.jpeg" {
+  class:"w3-round" alt="mycar"
+  width: 80%
+}
+
+h1 {
+  color: green;
+}
+
+h3 {
+  text-align: center;
+}
+
+#output {
+  text-align: center;
+}
