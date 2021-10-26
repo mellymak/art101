@@ -1,7 +1,6 @@
 /**
  * Author: Melanie Mak
  * Created: 10.26.21
- *
  * License: Public Domain.
  **/
 
