@@ -24,4 +24,4 @@ var result2 = array.map(function(x){
 })
 
 //should return array times 2 each value
-console.log("Test of multiplying the array times 2: ", result1);
+console.log("Test of multiplying the array times 2: ", result2);
