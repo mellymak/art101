@@ -28,6 +28,6 @@ outputEl.appendChild(new2El)
 
  // // Change the css attributes of at least two elements of your page
  new2El.style.color = "white";
- new2El.style.backgroundcolor = "lavender";
+ new2El.style.backgroundcolor = "pink";
 
  new1El.style.color = "green";
