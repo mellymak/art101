@@ -20,7 +20,7 @@ document.createElement("button");
  var new2El = document.createElement("button");
 
  // Change the html attribute of new2El to say something else.
-new2El.innerHTML = "<button id=button>you are so magical!</button>";
+new2El.innerHTML = "you are so magical!";
 
  // Append both new elements one at a time using appendChild() to your output <div>
 outputEl.appendChild(new1El);
