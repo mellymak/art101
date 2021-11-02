@@ -18,8 +18,6 @@ new1El.innerHTML = "howdy partner!";
  // Create another new element and assign it to a variable new2El
 document.createElement("new")
  var new2El = document.createElement("button");
-     new2El.style.color = "white";
-     new2El.style.backgrounfcolor = "lavender";
 
  // Change the html attribute of new2El to say something else.
 new2El.innerHTML = "<button id=magic>you are so magical!</button>";
@@ -29,3 +27,7 @@ outputEl.appendChild(new1El)
 outputEl.appendChild(new2El)
 
  // // Change the css attributes of at least two elements of your page
+ new2El.style.color = "white";
+ new2El.style.backgroundcolor = "lavender";
+
+ new1El.style.color = "green";
