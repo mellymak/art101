@@ -9,14 +9,14 @@ document.getElementById("output");
  var outputEl = document.getElementById("output");
 
  // Create a new element and assign it to a variable new1El
-document.createElement("p")
- var new1El = document.createElement("p")
+document.createElement("p");
+ var new1El = document.createElement("p");
 
  // Change the html attribute of new1El to say something new.
 new1El.innerHTML = "howdy partner!";
 
  // Create another new element and assign it to a variable new2El
-document.createElement("button")
+document.createElement("button");
  var new2El = document.createElement("button");
 
  // Change the html attribute of new2El to say something else.
