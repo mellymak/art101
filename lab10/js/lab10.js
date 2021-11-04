@@ -5,7 +5,7 @@
  */
 
  // Borrow the nameSort() function or my anagram() function from Lab 7.
- function myFunction() {
+ function nameSort() {
  	//Stores the name of the user in a variable
   document.getElementById("user-name");
    var username = document.getElementById("user-name");
@@ -26,17 +26,21 @@
  	return newserName;
  }
 
- // Attach an event listener to your button that does the following:
 
+ function putNameInTitle() {
+  // When the button is pushed,
+  // prompt the user to input their name
+  // with the prompt() function.
+  //var name = prompt("Please enter your name:");
+  var username = document.getElementById("user-name");
+  var name = field.value;
 
-var button = document.getElementById("my-button")
-
-button.addEventListener('click', myFunction);
- // Gets the value of your input field
-
-
- // Runs that value through your sort() or anagram() function and saves the results.
-
-
- // Replaces the html in <div id=output> with the results.
+  // Use this input to change the text from
+  // ‘Hello, World!’ to ‘Hello’ + the user’s name
+  var headingEl = document.getElementById("title");
+  headingEl.innerHTML = "Hello, " + newserName;
 }
+
+// Create an event handler within the JS file that listens for a button click.
+var buttonEl = document.getElementById("my-button");
+buttonEl.addEventListener("click", putNameInTitle);
