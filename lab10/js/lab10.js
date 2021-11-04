@@ -12,10 +12,20 @@
   var username = document.getElementById("user-name");
   var name = username.value;
 
-  // Use this input to change the text from
-  // ‘Hello, World!’ to ‘Hello’ + the user’s name
+  var newname = name.split("")
+  console.log(newname);
+
+  var sortedNames = newname.sort();
+  console.log(sortedNames);
+
+  var newserName = sortedNames.join("");
+ 	console.log(newserName);
+
+ 	return newserName;
+
+  // Use this input to change the text
   var headingEl = document.getElementById("output");
-  headingEl.innerHTML = "(Please) Input Your Name:" + name;
+  headingEl.innerHTML = "(Please) Input Your Name:" + newserName;
 }
 
 // Create an event handler within the JS file that listens for a button click.
