@@ -26,7 +26,7 @@
  myButton.addEventListener("click",function() {
    var name = document.getElementById("input").value;
    var house = sortingHat(name)
-   newText = "<p>The Dumpling Kingdom has sorted you into " + house + "</p>";
+   newText = "<p1>The Dumpling Kingdom has sorted you into " + house + "</p1>";
    document.getElementById("output").innerHTML = newText;
 
  })
