@@ -1,17 +1,5 @@
-.pink{
-  color: pink;
-}
-
-.purple{
-  color: purple;
-}
-
-.blue{
-  color: blue;
-}
-
 p1 {
-  color: pink;
+  color: plum;
 }
 
 h1 {
@@ -23,6 +11,15 @@ h2 {
   text-align: center;
 }
 
+h3 {
+  color: plum;
+  text-align: center;
+}
+
 body, h1, h2, h3, h4, h5, h6 {
   font-family: Geneva, Verdana, sans-serif;
+}
+
+img {
+  align-self: center;
 }
