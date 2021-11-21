@@ -22,7 +22,6 @@ function FizzBuzzBoom() {
          str += "!";
      }
      console.log(str);
+     $("#output").append("<p>" + str + "</p>");
   }
 }
-
-$("#output").append("<p>" + str + "</p>");
