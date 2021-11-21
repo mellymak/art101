@@ -3,7 +3,7 @@
  * Created: 11.20.21
  * License: Public Domain
  */
-function count() {
+function FizzBuzzBoom() {
  for (var i=0; i<=200; i++) {
      var str= "";
      if (i % 3 == 0) {
@@ -23,6 +23,6 @@ function count() {
      }
      console.log(str);
   }
- }
+}
 
 $("#output").append("<p>" + str + "</p>");
