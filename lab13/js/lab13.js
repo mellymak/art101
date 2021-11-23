@@ -4,23 +4,23 @@
  * License: Public Domain
  */
 function FizzBuzzBoom() {
- for (var i=0; i<=200; i++) {
+ for (var num=0; num<=200; num++) {
      var str= "";
-     if (i % 3 == 0) {
+     if (num % 3 == 0) {
          str += "Fizz";
+         $("#output").append("<p>" + str + "</p>");
      }
-     if (i % 5 == 0) {
+     if (num % 5 == 0) {
          str += "Buzz";
+         $("#output").append("<p>" + str + "</p>");
      }
-     if (i % 7 == 0) {
+     if (num % 7 == 0) {
          str += "Boom";
-     }
-     if (str == "") {
-         str = i;
+         $("#output").append("<p>" + str + "</p>");
      }
      else {
-         str += "!";
+         str += "!</br>";
      }
-     console.log(str);
+     console.log(num.toString() + str);
   }
 }
