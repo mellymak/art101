@@ -12,7 +12,7 @@ $("#activate").click(myAPI);
 function myAPI(){
   console.log("click");
   //using the core $.ajax() method
-  $.ajax(){
+  $.ajax() {
     // the URL for the request
     url: myLink,
     //whether this is a POST or GET request
